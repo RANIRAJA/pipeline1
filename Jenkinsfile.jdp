@@ -10,7 +10,12 @@ pipeline{
             steps{
                 echo 'i am executing build'
             }
-        }         
+        }        
+        stage("Build"){
+            steps{
+                echo 'i am executing build'
+            }
+        }       
         stage("Test"){
             steps{
                 echo 'i am executing test'
