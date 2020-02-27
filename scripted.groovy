@@ -7,7 +7,7 @@ node{
             }
 
         }
-        stage('code pull'){
+        stage('build'){
             step{
                 echo "code pulling"
             }
