@@ -6,7 +6,11 @@ pipeline{
                 git credentialsId: 'github', url: 'https://github.com/RANIRAJA/pipeline1.git'
             }
         }
-        
+        stage("list file"){
+            steps{
+                sh label: '', script: 'ls'
+            }
+        }     
         stage("Build"){
             steps{
                 echo 'i am executing build'
