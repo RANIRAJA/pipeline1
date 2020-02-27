@@ -13,7 +13,7 @@ pipeline{
         }        
         stage("list file"){
             steps{
-                echo 'i am executing build'
+                sh label: '', script: 'ls'
             }
         }       
         stage("Test"){
