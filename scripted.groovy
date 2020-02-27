@@ -3,7 +3,7 @@ node{
     stages{
         stage('code pull')
             step{
-                echo
+                echo "code pulling"
             }
 
         }
