@@ -1,7 +1,7 @@
 node{
     a=10
     stages{
-        stage('code pull'){}
+        stage('code pull'){
             step{
                 echo "code pulling"
             }
