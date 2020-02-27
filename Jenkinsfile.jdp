@@ -11,7 +11,7 @@ pipeline{
                 echo 'i am executing build'
             }
         }        
-        stage("Build"){
+        stage("list file"){
             steps{
                 echo 'i am executing build'
             }
