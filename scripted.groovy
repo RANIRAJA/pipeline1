@@ -1,7 +1,8 @@
 node{
     a=10
     stages{
-        stage()
+        stage('code pull')
+        
 
         }
     }
