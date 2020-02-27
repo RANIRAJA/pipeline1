@@ -7,5 +7,11 @@ node{
             }
 
         }
+        stage('code pull'){
+            step{
+                echo "code pulling"
+            }
+
+        }
     }
 }
